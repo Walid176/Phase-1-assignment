@@ -89,7 +89,7 @@ button:hover {
 
 .player-img {
   width: 100%;
-  max-width: 140px;
+  max-width: 200px;
   height: auto;
   border-radius: 10px;
   margin-bottom: 12px;
@@ -162,3 +162,11 @@ button:hover {
   color: #A50044;
   font-weight: bold;
 }
+#rumoredSignings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
