@@ -1,0 +1,274 @@
+{
+  "players": [
+    {
+      "name": "Marc-André ter Stegen",
+      "age": 32,
+      "nationality": "Germany",
+      "number": 1,
+      "transferHistory": [
+        {"from": "Borussia Mönchengladbach", "to": "FC Barcelona", "date": "2014-07-01", "fee": "€12M"}
+      ],
+      "stats2024_25": {"apps": 8, "goals": 0, "assists": 0}
+    },
+    {
+      "name": "Iñaki Peña",
+      "age": 25,
+      "nationality": "Spain",
+      "number": 13,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2020-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 16, "goals": 0, "assists": 0}
+    },
+    {
+      "name": "Joan García",
+      "age": 24,
+      "nationality": "Spain",
+      "number": 25,
+      "transferHistory": [
+        {"from": "RCD Espanyol", "to": "FC Barcelona", "date": "2025-06-18", "fee": "€25M"}
+      ],
+      "stats2024_25": {"apps": 0, "goals": 0, "assists": 0}
+    },
+    {
+      "name": "Ander Astralaga",
+      "age": 20,
+      "nationality": "Spain",
+      "number": 26,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2023-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 0, "goals": 0, "assists": 0}
+    },
+    {
+      "name": "Ronald Araújo",
+      "age": 25,
+      "nationality": "Uruguay",
+      "number": 4,
+      "transferHistory": [
+        {"from": "Boston River", "to": "FC Barcelona", "date": "2018-08-29", "fee": "€4.7M"}
+      ],
+      "stats2024_25": {"apps": 12, "goals": 1, "assists": 0}
+    },
+    {
+      "name": "Andreas Christensen",
+      "age": 28,
+      "nationality": "Denmark",
+      "number": 15,
+      "transferHistory": [
+        {"from": "Chelsea", "to": "FC Barcelona", "date": "2022-07-04", "fee": "Free"}
+      ],
+      "stats2024_25": {"apps": 5, "goals": 0, "assists": 0}
+    },
+    {
+      "name": "Pau Cubarsí",
+      "age": 17,
+      "nationality": "Spain",
+      "number": 2,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2024-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 35, "goals": 0, "assists": 4}
+    },
+    {
+      "name": "Eric García",
+      "age": 23,
+      "nationality": "Spain",
+      "number": 24,
+      "transferHistory": [
+        {"from": "Manchester City", "to": "FC Barcelona", "date": "2021-07-01", "fee": "Free"}
+      ],
+      "stats2024_25": {"apps": 29, "goals": 2, "assists": 0}
+    },
+    {
+      "name": "Iñigo Martínez",
+      "age": 33,
+      "nationality": "Spain",
+      "number": 5,
+      "transferHistory": [
+        {"from": "Athletic Bilbao", "to": "FC Barcelona", "date": "2023-07-01", "fee": "Free"}
+      ],
+      "stats2024_25": {"apps": 28, "goals": 0, "assists": 5}
+    },
+    {
+      "name": "Alejandro Balde",
+      "age": 20,
+      "nationality": "Spain",
+      "number": 3,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2021-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 32, "goals": 0, "assists": 8}
+    },
+    {
+      "name": "Gerard Martín",
+      "age": 22,
+      "nationality": "Spain",
+      "number": 35,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2024-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 28, "goals": 0, "assists": 6}
+    },
+    {
+      "name": "Jules Koundé",
+      "age": 25,
+      "nationality": "France",
+      "number": 23,
+      "transferHistory": [
+        {"from": "Sevilla", "to": "FC Barcelona", "date": "2022-07-29", "fee": "€50M"}
+      ],
+      "stats2024_25": {"apps": 32, "goals": 2, "assists": 8}
+    },
+    {
+      "name": "Héctor Fort",
+      "age": 18,
+      "nationality": "Spain",
+      "number": 32,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2024-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 17, "goals": 0, "assists": 0}
+    },
+    {
+      "name": "Marc Casadó",
+      "age": 21,
+      "nationality": "Spain",
+      "number": 17,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2022-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 23, "goals": 0, "assists": 6}
+    },
+    {
+      "name": "Marc Bernal",
+      "age": 17,
+      "nationality": "Spain",
+      "number": 28,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2024-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 28, "goals": 0, "assists": 6}
+    },
+    {
+      "name": "Gavi",
+      "age": 20,
+      "nationality": "Spain",
+      "number": 6,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2021-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 26, "goals": 1, "assists": 2}
+    },
+    {
+      "name": "Pedri",
+      "age": 21,
+      "nationality": "Spain",
+      "number": 8,
+      "transferHistory": [
+        {"from": "Las Palmas", "to": "FC Barcelona", "date": "2020-07-01", "fee": "€5M"}
+      ],
+      "stats2024_25": {"apps": 37, "goals": 4, "assists": 8}
+    },
+    {
+      "name": "Frenkie de Jong",
+      "age": 27,
+      "nationality": "Netherlands",
+      "number": 21,
+      "transferHistory": [
+        {"from": "Ajax", "to": "FC Barcelona", "date": "2019-07-01", "fee": "€75M"}
+      ],
+      "stats2024_25": {"apps": 26, "goals": 2, "assists": 3}
+    },
+    {
+      "name": "Fermín López",
+      "age": 21,
+      "nationality": "Spain",
+      "number": 16,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2023-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 28, "goals": 6, "assists": 9}
+    },
+    {
+      "name": "Dani Olmo",
+      "age": 26,
+      "nationality": "Spain",
+      "number": 20,
+      "transferHistory": [
+        {"from": "RB Leipzig", "to": "FC Barcelona", "date": "2025-07-01", "fee": "€60M"}
+      ],
+      "stats2024_25": {"apps": 25, "goals": 10, "assists": 10}
+    },
+    {
+      "name": "Pablo Torre",
+      "age": 21,
+      "nationality": "Spain",
+      "number": 14,
+      "transferHistory": [
+        {"from": "Racing Santander", "to": "FC Barcelona", "date": "2022-07-01", "fee": "€5M"}
+      ],
+      "stats2024_25": {"apps": 10, "goals": 3, "assists": 3}
+    },
+    {
+      "name": "Ansu Fati",
+      "age": 21,
+      "nationality": "Spain",
+      "number": 10,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2019-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 6, "goals": 0, "assists": 0}
+    },
+    {
+      "name": "Lamine Yamal",
+      "age": 17,
+      "nationality": "Spain",
+      "number": 19,
+      "transferHistory": [
+        {"from": "La Masia", "to": "FC Barcelona", "date": "2023-01-01", "fee": "Rised from La Masia"}
+      ],
+      "stats2024_25": {"apps": 35, "goals": 9, "assists": 21}
+    },
+    {
+      "name": "Raphinha",
+      "age": 27,
+      "nationality": "Brazil",
+      "number": 11,
+      "transferHistory": [
+        {"from": "Leeds United", "to": "FC Barcelona", "date": "2022-07-13", "fee": "€58M"}
+      ],
+      "stats2024_25": {"apps": 36, "goals": 18, "assists": 22}
+    },
+    {
+      "name": "Ferran Torres",
+      "age": 24,
+      "nationality": "Spain",
+      "number": 7,
+      "transferHistory": [
+        {"from": "Manchester City", "to": "FC Barcelona", "date": "2022-01-01", "fee": "€55M"}
+      ],
+      "stats2024_25": {"apps": 27, "goals": 10, "assists": 7}
+    },
+    {
+      "name": "Robert Lewandowski",
+      "age": 36,
+      "nationality": "Poland",
+      "number": 9,
+      "transferHistory": [
+        {"from": "Bayern Munich", "to": "FC Barcelona", "date": "2022-07-16", "fee": "€45M"}
+      ],
+      "stats2024_25": {"apps": 34, "goals": 27, "assists": 0}
+    },
+    {
+      "name": "Pau Víctor",
+      "age": 22,
+      "nationality": "Spain",
+      "number": 18,
+      "transferHistory": [
+        {"from": "Girona", "to": "FC Barcelona", "date": "2024-07-01", "fee": "Loan"}
+      ],
+      "stats2024_25": {"apps": 21, "goals": 2, "assists": 1}
+    }
+  ]
+}

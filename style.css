@@ -1,0 +1,42 @@
+.barca-logo{
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+.barca-header{
+    background-color: #004D98;
+    padding: 15px 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid #A50044;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.barca-header input{
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    width: 180px;
+}
+#newSignings{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2opx;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+    color: #004D98;
+}
+#newSignings .player{
+    position: relative;
+    border: 2px solid #FDB913;
+    background-color: #fff9e6;
+    box-shadow: 0 0 20px rgba(253, 185, 19, 0.3);
+}
