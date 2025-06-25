@@ -1,73 +1,10 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
-  padding: 20px;
   margin: 0;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-.hero-section {
-  background-image: url('https://www.fcbarcelona.com/fcbarcelona/photo/2018/11/14/2dc6f55e-6863-4a55-8396-a2ca83584870/foto_aficio.jpg'); 
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 60px;
-}
-.hero-overlay {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 20px 40px;
-  border-radius: 10px;
-}
-.hero-overlay h1 {
-  color: #ffcc00;
-  font-size: 28px;
-  font-weight: bold;
-  text-align: center;
-  margin: 0;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-.content-box {
-  background-color: white;
   padding: 20px;
-  border-radius: 20px;
-  margin: 20px auto 40px;
-  max-width: 1000px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  text-align: center;
 }
-.content-box h2 {
-  margin-top: 0;
-  font-size: 22px;
-  color: #222;
-}
-.position-buttons {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-.position-buttons button {
-  background: none;
-  border: none;
-  color: #2a2a2a;
-  font-weight: bold;
-  font-size: 15px;
-  padding: 8px 12px;
-  margin: 4px;
-  text-transform: uppercase;
-  cursor: pointer;
-  border-bottom: 2px solid transparent;
-  transition: border-bottom 0.2s, color 0.2s;
-}
-.position-buttons button:hover {
-  border-bottom: 2px solid #004D98; 
-  color: #A50044;
-}
+
 .barca-header {
   background-color: #004D98;
   color: white;
@@ -75,19 +12,19 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  flex-wrap: wrap;
 }
+
 .barca-logo {
   width: 60px;
-  height: auto;
-  margin-right: 10px;
 }
+
 .barca-header h1 {
   flex: 1;
   text-align: center;
   font-size: 22px;
   margin: 0;
 }
+
 .barca-header input {
   padding: 8px;
   font-size: 14px;
@@ -95,210 +32,160 @@ body {
   border: none;
   width: 180px;
 }
-button {
+
+.hero-section {
+  background-image: url('https://www.fcbarcelona.com/fcbarcelona/photo/2018/11/14/2dc6f55e-6863-4a55-8396-a2ca83584870/foto_aficio.jpg');
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.content-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.position-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.position-buttons button {
   background-color: #004D98;
   color: white;
   border: none;
   padding: 10px 15px;
-  cursor: pointer;
   border-radius: 5px;
-  margin: 5px;
+  cursor: pointer;
   font-weight: bold;
 }
-button:hover {
+
+.position-buttons button:hover {
   background-color: #003366;
 }
-#playerList,
-#newSignings {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin-top: 20px;
-}
-.player {
-  padding: 15px;
-  border-radius: 10px;
-  text-align: center;
-  width: 240px;
-  font-size: 14px;
-  line-height: 1.7;
-  background-color: #ffffff;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  position: relative;
-}
-.player:hover {
-  transform: scale(1.03);
-}
-.player-img {
-  width: 180px;
-  max-width: 200px;
-  height: 180px;
-  border-radius: 10px;
-  margin-bottom: 12px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
-}
-.player strong:first-of-type {
-  display: block;
-  font-size: 16px;
-  color: #004D98;
-  margin-bottom: 10px;
-}
-.player strong {
-  color: #333;
-}
-#newSignings .player {
-  background-color: #fff9e6;
-  border: 2px solid #FDB913;
-  box-shadow: 0 0 10px rgba(253, 185, 19, 0.2);
-}
-#newSignings .player::after {
-  content: "NEW";
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background-color: #A50044;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 3px 6px;
-  border-radius: 4px;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-}
-.new-signings-section {
-  border: 2px solid #004D98;
-  background-color: #f0f8ff;
-  border-radius: 10px;
-  padding: 20px;
-  margin-top: 40px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-.new-signings-section h2 {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 20px;
-  color: #004D98;
-  font-weight: bold;
-}
-.rumored-signings-section {
-  border: 2px solid #888888;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  padding: 20px;
-  margin-top: 40px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-.rumored-signings-section h2 {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 20px;
-  color: #A50044;      
-  font-weight: bold;
-}
-#rumoredSignings {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin-top: 20px;
-}
-.rumored-departures-section {
-  border: 2px solid #888888;
-  background-color: #fff0f5;
-  border-radius: 10px;
-  padding: 20px;
-  margin-top: 40px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-}
-.rumored-departures-section h2 {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 20px;
-  color: #444;
-  font-weight: bold;
-}
-#rumoredDepartures {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin-top: 20px;
-}
+
 .position-section {
   background-color: #fff0f5;
   padding: 30px 20px;
   border-radius: 10px;
   margin: 40px 20px;
   border: 2px solid #A50044;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   text-align: center;
 }
 
 .position-section h2 {
-  font-size: 22px;
   color: #A50044;
-  margin-bottom: 20px;
-  font-weight: bold;
 }
+
 .player-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  width: 100%;
 }
 
+.player {
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 240px;
+  background-color: #ffffff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
 
+.player:hover {
+  transform: scale(1.03);
+}
+
+.player-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+strong .first-name {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+strong .last-name {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.new-signings-section {
+  border: 2px solid #004D98;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.new-signings-section h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #004D98;
+  font-weight: bold;
+}
+
+/* Coaching staff style */
 .coaching-staff-section {
+  border: 2px solid #004D98;
+  padding: 30px;
+  border-radius: 10px;
   max-width: 1000px;
   margin: 40px auto;
-  padding: 30px;
   background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
+
 .coaching-staff-section h2 {
   text-align: center;
-  color: #A50044;
+  color: #004D98;
   font-weight: bold;
-  margin-bottom: 25px;
 }
+
 .coach-layout {
   display: flex;
-  flex-wrap: wrap;
   gap: 30px;
-  align-items: flex-start;
   justify-content: center;
+  flex-wrap: wrap;
 }
+
 .coach-photo {
   text-align: center;
 }
+
 .coach-photo img {
   width: 200px;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
 .coach-photo strong {
   display: block;
   margin-top: 10px;
-  font-size: 16px;
-}
-.coach-photo span {
-  color: #444;
-  font-size: 14px;
-}
-.coach-table table {
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 600px;
-}
-.coach-table td {
-  border: 1px solid #ccc;
-  padding: 10px 12px;
-  font-size: 14px;
 }
 
+.coach-table table {
+  border-collapse: collapse;
+}
+
+.coach-table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+}
