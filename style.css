@@ -6,14 +6,79 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.dark-mode {
-  background-color: #121212;
-  color: #f0f0f0;
+.hero-section {
+  background-image: url('https://www.fcbarcelona.com/fcbarcelona/photo/2018/11/14/2dc6f55e-6863-4a55-8396-a2ca83584870/foto_aficio.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
 }
 
-.dark-mode .barca-header {
-  background-color: #222;
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 40px;
+  border-radius: 10px;
 }
+
+.hero-overlay h1 {
+  color: #ffcc00;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.content-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px auto 40px;
+  max-width: 1000px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.content-box h2 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #222;
+}
+
+.position-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.position-buttons button {
+  background: none;
+  border: none;
+  color: #2a2a2a;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 12px;
+  margin: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+.position-buttons button:hover {
+  border-bottom: 2px solid #004D98; 
+  color: #A50044;
+}
+
+
+
 
 .barca-header {
   background-color: #004D98;
@@ -146,8 +211,8 @@ button:hover {
 }
 
 .rumored-signings-section {
-  border: 2px solid #A50044;
-  background-color: #fff0f5;
+  border: 2px solid #888888;
+  background-color: #f9f9f9;
   border-radius: 10px;
   padding: 20px;
   margin-top: 40px;
@@ -159,7 +224,7 @@ button:hover {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 20px;
-  color: #A50044;
+  color: #A50044;      
   font-weight: bold;
 }
 #rumoredSignings {
@@ -168,5 +233,109 @@ button:hover {
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
+}
+.rumored-departures-section {
+  border: 2px solid #888888;
+  background-color: #fff0f5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.rumored-departures-section h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #444;
+  font-weight: bold;
+}
+
+#rumoredDepartures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.position-section {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 1000px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  text-align: center;
+}
+
+.position-section h2 {
+  font-size: 22px;
+  color: #A50044;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.coaching-staff-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.coaching-staff-section h2 {
+  text-align: center;
+  color: #A50044;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.coach-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.coach-photo {
+  text-align: center;
+}
+
+.coach-photo img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.coach-photo strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.coach-photo span {
+  color: #444;
+  font-size: 14px;
+}
+
+.coach-table table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+}
+
+.coach-table td {
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  font-size: 14px;
 }
 
