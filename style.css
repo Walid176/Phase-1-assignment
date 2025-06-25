@@ -5,7 +5,6 @@ body {
   margin: 0;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 .hero-section {
   background-image: url('https://www.fcbarcelona.com/fcbarcelona/photo/2018/11/14/2dc6f55e-6863-4a55-8396-a2ca83584870/foto_aficio.jpg'); 
   background-size: cover;
@@ -17,13 +16,11 @@ body {
   justify-content: center;
   padding-bottom: 60px;
 }
-
 .hero-overlay {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px 40px;
   border-radius: 10px;
 }
-
 .hero-overlay h1 {
   color: #ffcc00;
   font-size: 28px;
@@ -33,7 +30,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
 .content-box {
   background-color: white;
   padding: 20px;
@@ -43,13 +39,11 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-
 .content-box h2 {
   margin-top: 0;
   font-size: 22px;
   color: #222;
 }
-
 .position-buttons {
   margin-top: 10px;
   display: flex;
@@ -57,7 +51,6 @@ body {
   flex-wrap: wrap;
   gap: 12px;
 }
-
 .position-buttons button {
   background: none;
   border: none;
@@ -71,15 +64,10 @@ body {
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s, color 0.2s;
 }
-
 .position-buttons button:hover {
   border-bottom: 2px solid #004D98; 
   color: #A50044;
 }
-
-
-
-
 .barca-header {
   background-color: #004D98;
   color: white;
@@ -89,20 +77,17 @@ body {
   padding: 15px 20px;
   flex-wrap: wrap;
 }
-
 .barca-logo {
   width: 60px;
   height: auto;
   margin-right: 10px;
 }
-
 .barca-header h1 {
   flex: 1;
   text-align: center;
   font-size: 22px;
   margin: 0;
 }
-
 .barca-header input {
   padding: 8px;
   font-size: 14px;
@@ -110,7 +95,6 @@ body {
   border: none;
   width: 180px;
 }
-
 button {
   background-color: #004D98;
   color: white;
@@ -121,11 +105,9 @@ button {
   margin: 5px;
   font-weight: bold;
 }
-
 button:hover {
   background-color: #003366;
 }
-
 #playerList,
 #newSignings {
   display: flex;
@@ -134,7 +116,6 @@ button:hover {
   justify-content: center;
   margin-top: 20px;
 }
-
 .player {
   padding: 15px;
   border-radius: 10px;
@@ -147,11 +128,9 @@ button:hover {
   transition: transform 0.2s ease;
   position: relative;
 }
-
 .player:hover {
   transform: scale(1.03);
 }
-
 .player-img {
   width: 100%;
   max-width: 200px;
@@ -160,24 +139,20 @@ button:hover {
   margin-bottom: 12px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 }
-
 .player strong:first-of-type {
   display: block;
   font-size: 16px;
   color: #004D98;
   margin-bottom: 10px;
 }
-
 .player strong {
   color: #333;
 }
-
 #newSignings .player {
   background-color: #fff9e6;
   border: 2px solid #FDB913;
   box-shadow: 0 0 10px rgba(253, 185, 19, 0.2);
 }
-
 #newSignings .player::after {
   content: "NEW";
   position: absolute;
@@ -191,7 +166,6 @@ button:hover {
   border-radius: 4px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
-
 .new-signings-section {
   border: 2px solid #004D98;
   background-color: #f0f8ff;
@@ -200,7 +174,6 @@ button:hover {
   margin-top: 40px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
-
 .new-signings-section h2 {
   text-align: center;
   margin-top: 0;
@@ -209,7 +182,6 @@ button:hover {
   color: #004D98;
   font-weight: bold;
 }
-
 .rumored-signings-section {
   border: 2px solid #888888;
   background-color: #f9f9f9;
@@ -218,7 +190,6 @@ button:hover {
   margin-top: 40px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
-
 .rumored-signings-section h2 {
   text-align: center;
   margin-top: 0;
@@ -242,7 +213,6 @@ button:hover {
   margin-top: 40px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
 }
-
 .rumored-departures-section h2 {
   text-align: center;
   margin-top: 0;
@@ -251,7 +221,6 @@ button:hover {
   color: #444;
   font-weight: bold;
 }
-
 #rumoredDepartures {
   display: flex;
   flex-wrap: wrap;
@@ -268,14 +237,12 @@ button:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
   text-align: center;
 }
-
 .position-section h2 {
   font-size: 22px;
   color: #A50044;
   margin-bottom: 20px;
   font-weight: bold;
 }
-
 .player-list {
   display: flex;
   flex-wrap: wrap;
@@ -290,14 +257,12 @@ button:hover {
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
-
 .coaching-staff-section h2 {
   text-align: center;
   color: #A50044;
   font-weight: bold;
   margin-bottom: 25px;
 }
-
 .coach-layout {
   display: flex;
   flex-wrap: wrap;
@@ -305,34 +270,28 @@ button:hover {
   align-items: flex-start;
   justify-content: center;
 }
-
 .coach-photo {
   text-align: center;
 }
-
 .coach-photo img {
   width: 200px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-
 .coach-photo strong {
   display: block;
   margin-top: 10px;
   font-size: 16px;
 }
-
 .coach-photo span {
   color: #444;
   font-size: 14px;
 }
-
 .coach-table table {
   border-collapse: collapse;
   width: 100%;
   max-width: 600px;
 }
-
 .coach-table td {
   border: 1px solid #ccc;
   padding: 10px 12px;
