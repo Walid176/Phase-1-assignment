@@ -132,9 +132,9 @@ button:hover {
   transform: scale(1.03);
 }
 .player-img {
-  width: 100%;
+  width: 180px;
   max-width: 200px;
-  height: auto;
+  height: 180px;
   border-radius: 10px;
   margin-bottom: 12px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
@@ -229,14 +229,15 @@ button:hover {
   margin-top: 20px;
 }
 .position-section {
-  background-color: #ffffff;
+  background-color: #fff0f5;
   padding: 30px 20px;
   border-radius: 10px;
-  margin: 40px auto;
-  max-width: 1000px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  margin: 40px 20px;
+  border: 2px solid #A50044;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   text-align: center;
 }
+
 .position-section h2 {
   font-size: 22px;
   color: #A50044;
@@ -248,7 +249,10 @@ button:hover {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  width: 100%;
 }
+
+
 .coaching-staff-section {
   max-width: 1000px;
   margin: 40px auto;
