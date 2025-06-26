@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
   };
 
-  // Button links
+  // button links
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
       const id = sections[button.textContent];
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Fetch players stats from db.json
+  // fetch players stats from db.json
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
