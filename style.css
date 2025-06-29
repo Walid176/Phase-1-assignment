@@ -224,12 +224,4 @@ body {
 }
 
 
-.favorite-star {
-  position: absolute;
-  top: 8px;
-  right: 10px;
-  font-size: 20px;
-  color: gold;
-  display: none;
-  z-index: 10;
-}
+

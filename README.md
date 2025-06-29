@@ -1,8 +1,27 @@
 # Phase-1-assignment
-A simple web application that displays the current FC Barcelona's team of 23 players. Users can hoverover the player and view their stats; all time Barcelona stats and last season's (2024/2025).
+A beginner-friendly single-page web app that displays FC Barcelona first-team players by position (Goalkeepers, Defenders, Midfielders, Forwards). It uses json-server as a mock backend and JavaScript for interactivity.
+
+## Features
+Browse players by position
+
+Smooth scrolling to player sections
+
+ ## Click a player card to:
+
+View their stats (all-time + 2024/25 season)
+
+Add/remove from favorites (shows a ★)
+
+Edit player stats (via simple prompt() popups)
+
+Delete a player from the list (removes from UI)
+
+Only one player stats popup is visible at a time
+
 
 ## Languages
-This web site was created using HTML, CSS and JavaScript.
+Programming languages used for this project are:
+HTML, CSS and JAVASCRIPT.
 
 ## Author
 Authored by Walid Khalid.
