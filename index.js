@@ -43,22 +43,15 @@ document.addEventListener("DOMContentLoaded", () => {
         );
         if (!matchedPlayer) return;
 
-        // Add star container for favorites
+        
         const star = document.createElement("div");
         star.className = "favorite-star";
         star.textContent = "★";
-        star.style.cssText = `
-          position: absolute;
-          top: 8px;
-          right: 8px;
-          font-size: 20px;
-          color: gold;
-          display: none;
-        `;
+       
         card.style.position = "relative";
         card.appendChild(star);
 
-        // Attach click event for popup
+      
         card.addEventListener("click", (e) => {
           e.stopPropagation();
 
@@ -107,23 +100,23 @@ document.addEventListener("DOMContentLoaded", () => {
           card.insertAdjacentHTML("beforeend", html);
           openPopupCard = card;
 
-          // Add button functionality
+  
           const popup = card.querySelector(".stats-popup");
 
-          // ADD TO FAVORITES
+          // FAVORITES
           popup.querySelector(".add-favorite").addEventListener("click", (e) => {
             e.stopPropagation();
             const isVisible = star.style.display === "block";
             star.style.display = isVisible ? "none" : "block";
           });
 
-          // DELETE PLAYER
+          // DELETE 
           popup.querySelector(".delete-player").addEventListener("click", (e) => {
             e.stopPropagation();
             card.remove();
           });
 
-          // EDIT STATS
+          // EDIT S
           popup.querySelector(".edit-stats").addEventListener("click", (e) => {
             e.stopPropagation();
 
@@ -148,10 +141,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 stats.all_time.assists = Number(newAssistsOrSaves);
               }
 
-              // Refresh popup
+              
               popup.remove();
               openPopupCard = null;
-              card.click(); // re-open
+              card.click(); 
             }
           });
         });
