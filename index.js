@@ -1,5 +1,4 @@
 const url = "http://localhost:3000/players";
-
 document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll(".position-buttons button");
 
